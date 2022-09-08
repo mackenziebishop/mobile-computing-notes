@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     @IBAction func onClickSubmit(_ sender: Any) {
         var name = nameTextField.text!
         var label = characterLabel.text = " First 4 letters of your name:  \(name.prefix(4))"
+        //Add if-else for names less than 4 characters in length??
     }
     
 }
