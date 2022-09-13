@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         var enteredDiscountRate = Double(discountLabel.text!)
         
-        var priceAfterDiscount = enteredAmount!-(enteredAmount!*enteredDiscountRate!/100)
+        var priceAfterDiscount = enteredAmount! - (enteredAmount!*enteredDiscountRate!/100)
         
         resultLabel.text = "Price after discount: $\(priceAfterDiscount)"
     }
