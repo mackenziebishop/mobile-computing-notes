@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         var name = nameTextField.text!
         var label = characterLabel.text = " First 4 letters of your name:  \(name.prefix(4))"
         //Add if-else for names less than 4 characters in length??
+        //if (name.count >= 4){
+        // var fourChar = name[name.startIndex ..< name.index(name.startIndex, offsetBy:4)
+        
     }
     
 }
