@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var discountLabel: UITextField!
     
+    @IBOutlet weak var resultLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,7 +26,9 @@ class ViewController: UIViewController {
         
         var enteredDiscountRate = Double(discountLabel.text!)
         
-        var priceAfterDiscount = 
+        var priceAfterDiscount = enteredAmount!-(enteredAmount!*enteredDiscountRate!/100)
+        
+        resultLabel.text = "Price after discount: $\(priceAfterDiscount)"
     }
     
 }

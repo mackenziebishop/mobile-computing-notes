@@ -54,7 +54,7 @@
                     <connections>
                         <outlet property="amountLabel" destination="CfA-Xh-ir2" id="542-vS-gtK"/>
                         <outlet property="discountLabel" destination="cyx-E5-v9r" id="rv8-FJ-TqX"/>
-                        <outlet property="resultLabel" destination="mej-77-aDs" id="ds9-md-SIV"/>
+                        <outlet property="resultLabel" destination="mej-77-aDs" id="tiw-Vx-mvM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
