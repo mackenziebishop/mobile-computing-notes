@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         displayLabel.text = ""
         
         //Populate guessEntered with underscores. # of underscores is equal to the # of characters in the guess
-        
+        updateUnderscores();
         
         //Get first hint associated with the word being guessed in the array
         hintLabel.text = "Hint: " + words[count][1]
@@ -63,6 +63,12 @@ class ViewController: UIViewController {
             //Fetch next word from array
             //Fetch hint correlated to word
             //Enabling the check button
+    }
+    
+    func updateUnderscores(){
+        for letter in word{
+            displayLabel.text! += "_ "
+        }
     }
 
 
