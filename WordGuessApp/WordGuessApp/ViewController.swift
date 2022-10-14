@@ -30,10 +30,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Check button should be disabled before guess
+        checkButton.isEnabled = false;
+        
         //Get the first word from the array
+        word = words[count][0]
+        displayLabel.text = ""
+        
         //Populate guessEntered with underscores. # of underscores is equal to the # of characters in the guess
+        
+        
         //Get first hint associated with the word being guessed in the array
+        hintLabel.text = "Hint: " + words[count][1]
+
         //Clear status label initially
+        guessStatus.text = ""
     }
     
     @IBAction func checkButtonClicked(_ sender: Any){
@@ -53,7 +63,6 @@ class ViewController: UIViewController {
             //Fetch next word from array
             //Fetch hint correlated to word
             //Enabling the check button
-        
     }
 
 
