@@ -76,18 +76,38 @@ class ViewController: UIViewController {
     
     @IBAction func playAgainButtonClicked(_ sender: UIButton){
         //Reset button to disable initially
+        playAgainButton.isHidden = true
+        
         //Clear the label
-        //If count reaches end of array, print "Congratulations" in hintLabel (if-else statement)
-        //If...
+        lettersGuessed = ""
+        count += 1
+        
+        //if count reaches end of array, print "Congratulations" in hintLabel (if-else statement)
+        if count == words.count{
+            guessStatus.text = "Congratulations! You have completed the game!"
+            
             //Clear labels
-        //Else...
-            //Fetch next word from array
-            //Fetch hint correlated to word
-            //Enabling the check button
+            displayLabel.text = ""
+            hintLabel.text = ""
+        }
+        else {
+            //fetch next word from array
+            word = words[count][0]
+            
+            //fetch hint associated to word
+            hintLabel.text = "Hint: "
+            hintLabel.text! += words[count][1]
+            
+            //Enable check button
+            checkButton.isEnabled = true
+            
+            displayLabel.text = ""
+            updateUnderscores()
+        }
     }
     
     func updateUnderscores(){
-        for letter in word{
+        for letter in word {
             displayLabel.text! += "_ "
         }
     }
