@@ -48,9 +48,30 @@ class ViewController: UIViewController {
     
     @IBAction func checkButtonClicked(_ sender: Any){
         //Get text from text field
+        var letter = guessEntered.text!
+        
         //Replace the guessed letter if the letter is part of the word
+        lettersGuessed = lettersGuessed + letter
+        var revealedWord = ""
+        for l in word{
+            if lettersGuessed.contains(l){
+                revealedWord += "\(l)"
+            }
+            else {
+                revealedWord += "_ "
+            }
+        }
+        
         //Assigning the word to guessStatus after a guess
+        displayLabel.text = revealedWord
+        guessEntered.text = ""
+        
         //If the word is guessed correctly, enable play again button and disabling the check button
+        if displayLabel.text!.contains("_") == false {
+            playAgainButton.isHidden = false;
+            checkButton.isEnabled = false;
+        }
+        checkButton.isEnabled = false
     }
     
     @IBAction func playAgainButtonClicked(_ sender: UIButton){
