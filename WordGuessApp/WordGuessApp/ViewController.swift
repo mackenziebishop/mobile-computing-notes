@@ -105,7 +105,22 @@ class ViewController: UIViewController {
             updateUnderscores()
         }
     }
-    
+    @IBAction func enterLabelChanged(_ sender: UITextField) {
+        //read the data from the text field
+        var textEntered = guessEntered.text!;
+        
+        //Consider only the last character by calling textEntered.last and trimming the white spaces
+        textEntered = String(textEntered.last ?? " ").trimmingCharacters(in: .whitespaces)
+        guessEntered.text = textEntered
+        
+        //Check whether the entered text is empty or not to enable check button
+        if textEntered.isEmpty{
+            checkButton.isEnabled = false
+        }
+        else {
+            checkButton.isEnabled = true
+        }
+    }
     func updateUnderscores(){
         for letter in word {
             displayLabel.text! += "_ "
