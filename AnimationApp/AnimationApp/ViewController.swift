@@ -44,6 +44,14 @@ class ViewController: UIViewController {
     @IBAction func shakeButtonClicked(_ sender: Any) {
     }
     @IBAction func showButtonClicked(_ sender: Any) {
+        UIView.animate(withDuration: 1, animations: {
+            //Allows to trigger animation
+            self.imageOutlet.center.x = self.view.center.x
+            self.happyOutlet.center.x = self.view.center.x
+            self.sadOutlet.center.x = self.view.center.x
+            self.angryOutlet.center.x = self.view.center.x
+            self.shakeOutlet.center.x = self.view.center.x
+        })
         //Bring all components to the center
         imageOutlet.center.x = view.center.x
         happyOutlet.center.x = view.center.x
