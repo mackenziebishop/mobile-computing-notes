@@ -36,12 +36,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func happyButtonClicked(_ sender: Any) {
+        animateImage("happy")
     }
     @IBAction func sadButtonClicked(_ sender: Any) {
+        animateImage("sad")
+
     }
     @IBAction func angryButtonClicked(_ sender: Any) {
+        animateImage("angry")
+
     }
     @IBAction func shakeButtonClicked(_ sender: Any) {
+        
     }
     @IBAction func showButtonClicked(_ sender: Any) {
         UIView.animate(withDuration: 1, animations: {
@@ -62,8 +68,9 @@ class ViewController: UIViewController {
         //Disable show button
         showMeOutlet.isEnabled = false
     }
-    
-
-
+    func animateImage(_ imageName:String){
+        //Change image to corresponding button
+        imageOutlet.image = UIImage(named: imageName)
+    }
 }
 
