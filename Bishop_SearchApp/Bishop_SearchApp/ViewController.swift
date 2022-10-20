@@ -35,6 +35,9 @@ class ViewController: UIViewController {
     //Actor keyword array
     let actor_keywords = ["actor", "movie", "hero", "film"]
     
+    //Topic array
+        let topic_array = [["These are some of my favorite flowers that can be found locally. This search yields 5 results."],["These are some of my favorite books that range from classical literature to modern science fiction. This search yields 5 results."],["These are some of the most well-known actors and actresses of all time, spanning across different generations of movie and TV history. This search yields 5 results."]]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
