@@ -22,7 +22,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func onSearchBtnClicked(_ sender: Any) {
+    }
+    @IBAction func onNextBtnClicked(_ sender: Any) {
+    }
+    @IBAction func onPrevBtnClicked(_ sender: Any) {
+    }
+    
 
 }
 
