@@ -25,7 +25,15 @@ class ViewController: UIViewController {
             [UIImage(named: "dune"), UIImage(named: "great_gatsby"), UIImage(named: "little_women"), UIImage(named: "pride_and_prejudice"), UIImage(named: "wuthering_heights")],
             //Actor image array
             [UIImage(named: "emma_watson"), UIImage(named: "meryl_streep"), UIImage(named: "morgan_freeman"), UIImage(named: "tom_hanks"), UIImage(named: "tom_holland")]
-        ]
+    ]
+    //Flower keyword array
+    let flower_keywords = ["flower", "color", "size", "petals"]
+       
+    //Book keyword array
+    let book_keywords = ["book", "classic", "literature", "hardcover"]
+       
+    //Actor keyword array
+    let actor_keywords = ["actor", "movie", "hero", "film"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
