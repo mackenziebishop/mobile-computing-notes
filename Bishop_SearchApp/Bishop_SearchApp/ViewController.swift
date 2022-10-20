@@ -9,6 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var searchTextField: UITextField!
+    @IBOutlet weak var searchButtonAction: UIButton!
+    @IBOutlet weak var resultImage: UIImageView!
+    
+    @IBOutlet weak var showPrevImagesBtn: UIButton!
+    @IBOutlet weak var showNextImagesBtn: UIButton!
+    
+    @IBOutlet weak var topicInfoText: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
