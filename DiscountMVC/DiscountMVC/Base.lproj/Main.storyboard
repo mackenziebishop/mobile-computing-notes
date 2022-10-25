@@ -97,6 +97,7 @@
                         <outlet property="discountRateOutlet" destination="9t5-24-oeZ" id="QU6-Gf-1vX"/>
                         <outlet property="displayAmountOutlet" destination="jN4-bF-CDH" id="PF9-Bd-afq"/>
                         <outlet property="displayResult" destination="QFs-hT-U0s" id="NG8-A8-rq1"/>
+                        <outlet property="onClickBack" destination="z6d-nV-MNK" id="J2W-Sy-YYk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gj5-nf-3eu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
