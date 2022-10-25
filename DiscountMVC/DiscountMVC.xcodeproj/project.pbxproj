@@ -16,6 +16,7 @@
 		53BB038C290817AF00FFC379 /* DiscountMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB038B290817AF00FFC379 /* DiscountMVCTests.swift */; };
 		53BB0396290817AF00FFC379 /* DiscountMVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB0395290817AF00FFC379 /* DiscountMVCUITests.swift */; };
 		53BB0398290817AF00FFC379 /* DiscountMVCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB0397290817AF00FFC379 /* DiscountMVCUITestsLaunchTests.swift */; };
+		53BB03A5290819A800FFC379 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BB03A4290819A800FFC379 /* resultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		53BB0391290817AF00FFC379 /* DiscountMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BB0395290817AF00FFC379 /* DiscountMVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountMVCUITests.swift; sourceTree = "<group>"; };
 		53BB0397290817AF00FFC379 /* DiscountMVCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountMVCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53BB03A4290819A800FFC379 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				53BB037D290817AF00FFC379 /* Assets.xcassets */,
 				53BB037F290817AF00FFC379 /* LaunchScreen.storyboard */,
 				53BB0382290817AF00FFC379 /* Info.plist */,
+				53BB03A4290819A800FFC379 /* resultViewController.swift */,
 			);
 			path = DiscountMVC;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				53BB0379290817AC00FFC379 /* ViewController.swift in Sources */,
 				53BB0375290817AC00FFC379 /* AppDelegate.swift in Sources */,
 				53BB0377290817AC00FFC379 /* SceneDelegate.swift in Sources */,
+				53BB03A5290819A800FFC379 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
