@@ -15,8 +15,17 @@ class resultViewController: UIViewController {
     
     @IBOutlet weak var displayResult: UILabel!
     
+    //Create variables to hold values from main
+    var amount  = ""
+    var discount = ""
+    var result = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        displayAmountOutlet.text = amount
+        discountRateOutlet.text = discount
+        displayResult.text = result
 
         // Do any additional setup after loading the view.
     }
