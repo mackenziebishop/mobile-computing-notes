@@ -23,9 +23,9 @@ class resultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        displayAmountOutlet.text = amount
-        discountRateOutlet.text = discount
-        displayResult.text = result
+        displayAmountOutlet.text = displayAmountOutlet.text! + amount
+        discountRateOutlet.text = discountRateOutlet.text! + discount
+        displayResult.text = displayResult.text! + result
 
         // Do any additional setup after loading the view.
     }
