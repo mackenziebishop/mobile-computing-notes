@@ -18,6 +18,7 @@
 		53264834291D3CFB0039F506 /* Bishop_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264833291D3CFB0039F506 /* Bishop_GroceryAppUITestsLaunchTests.swift */; };
 		53264841291D40E50039F506 /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264840291D40E50039F506 /* GroceryItemsViewController.swift */; };
 		53264843291D46D40039F506 /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264842291D46D40039F506 /* ItemInfoViewController.swift */; };
+		53264845291D4AA00039F506 /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264844291D4AA00039F506 /* GrocerySections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		53264833291D3CFB0039F506 /* Bishop_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		53264840291D40E50039F506 /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
 		53264842291D46D40039F506 /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		53264844291D4AA00039F506 /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				5326481E291D3CFB0039F506 /* Info.plist */,
 				53264840291D40E50039F506 /* GroceryItemsViewController.swift */,
 				53264842291D46D40039F506 /* ItemInfoViewController.swift */,
+				53264844291D4AA00039F506 /* GrocerySections.swift */,
 			);
 			path = Bishop_GroceryApp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53264815291D3CFA0039F506 /* GrocerySectionsView.swift in Sources */,
+				53264845291D4AA00039F506 /* GrocerySections.swift in Sources */,
 				53264811291D3CFA0039F506 /* AppDelegate.swift in Sources */,
 				53264841291D40E50039F506 /* GroceryItemsViewController.swift in Sources */,
 				53264843291D46D40039F506 /* ItemInfoViewController.swift in Sources */,
