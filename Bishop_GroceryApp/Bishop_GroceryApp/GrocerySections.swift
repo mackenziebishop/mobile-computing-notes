@@ -7,3 +7,13 @@
 
 import Foundation
 
+struct GrocerySections{
+    var section = ""
+    var itemsArray:GroceryItem = []
+}
+
+struct GroceryItem{
+    var itemName = ""
+    var itemImage
+    var itemInfo
+}
