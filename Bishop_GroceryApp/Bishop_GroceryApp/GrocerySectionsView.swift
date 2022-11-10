@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var grocerySectionsTableView: UITableView!
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        let transition = segue.identifier
+        if transition == "itemsSegue"{
+            let destination = segue.destination as! GroceryItemsViewController
+        }
+    }
 }
-

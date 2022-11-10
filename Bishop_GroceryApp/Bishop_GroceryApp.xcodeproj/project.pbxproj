@@ -16,6 +16,8 @@
 		53264828291D3CFB0039F506 /* Bishop_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264827291D3CFB0039F506 /* Bishop_GroceryAppTests.swift */; };
 		53264832291D3CFB0039F506 /* Bishop_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264831291D3CFB0039F506 /* Bishop_GroceryAppUITests.swift */; };
 		53264834291D3CFB0039F506 /* Bishop_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264833291D3CFB0039F506 /* Bishop_GroceryAppUITestsLaunchTests.swift */; };
+		53264841291D40E50039F506 /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264840291D40E50039F506 /* GroceryItemsViewController.swift */; };
+		53264843291D46D40039F506 /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53264842291D46D40039F506 /* ItemInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5326482D291D3CFB0039F506 /* Bishop_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bishop_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53264831291D3CFB0039F506 /* Bishop_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_GroceryAppUITests.swift; sourceTree = "<group>"; };
 		53264833291D3CFB0039F506 /* Bishop_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53264840291D40E50039F506 /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		53264842291D46D40039F506 /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				53264819291D3CFB0039F506 /* Assets.xcassets */,
 				5326481B291D3CFB0039F506 /* LaunchScreen.storyboard */,
 				5326481E291D3CFB0039F506 /* Info.plist */,
+				53264840291D40E50039F506 /* GroceryItemsViewController.swift */,
+				53264842291D46D40039F506 /* ItemInfoViewController.swift */,
 			);
 			path = Bishop_GroceryApp;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				53264815291D3CFA0039F506 /* GrocerySectionsView.swift in Sources */,
 				53264811291D3CFA0039F506 /* AppDelegate.swift in Sources */,
+				53264841291D40E50039F506 /* GroceryItemsViewController.swift in Sources */,
+				53264843291D46D40039F506 /* ItemInfoViewController.swift in Sources */,
 				53264813291D3CFA0039F506 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
