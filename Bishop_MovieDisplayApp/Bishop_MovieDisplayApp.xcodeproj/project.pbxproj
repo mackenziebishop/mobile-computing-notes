@@ -17,6 +17,7 @@
 		53346AAB2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AAA2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift */; };
 		53346AAD2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AAC2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift */; };
 		53346AC029366BB500C854BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346ABF29366BB500C854BF /* Movie.swift */; };
+		53346AC229366DEF00C854BF /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AC129366DEF00C854BF /* MovieInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		53346AAA2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_MovieDisplayAppUITests.swift; sourceTree = "<group>"; };
 		53346AAC2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_MovieDisplayAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		53346ABF29366BB500C854BF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		53346AC129366DEF00C854BF /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				53346A942936684900C854BF /* LaunchScreen.storyboard */,
 				53346A972936684900C854BF /* Info.plist */,
 				53346ABF29366BB500C854BF /* Movie.swift */,
+				53346AC129366DEF00C854BF /* MovieInfoViewController.swift */,
 			);
 			path = Bishop_MovieDisplayApp;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53346A8E2936684800C854BF /* MovieSectionViewController.swift in Sources */,
+				53346AC229366DEF00C854BF /* MovieInfoViewController.swift in Sources */,
 				53346A8A2936684800C854BF /* AppDelegate.swift in Sources */,
 				53346AC029366BB500C854BF /* Movie.swift in Sources */,
 				53346A8C2936684800C854BF /* SceneDelegate.swift in Sources */,
