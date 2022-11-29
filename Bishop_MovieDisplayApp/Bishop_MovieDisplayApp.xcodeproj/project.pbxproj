@@ -16,7 +16,7 @@
 		53346AA12936684900C854BF /* Bishop_MovieDisplayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AA02936684900C854BF /* Bishop_MovieDisplayAppTests.swift */; };
 		53346AAB2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AAA2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift */; };
 		53346AAD2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AAC2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift */; };
-		53346ABE293669C600C854BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346ABD293669C600C854BF /* Movie.swift */; };
+		53346AC029366BB500C854BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346ABF29366BB500C854BF /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		53346AA62936684900C854BF /* Bishop_MovieDisplayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bishop_MovieDisplayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53346AAA2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_MovieDisplayAppUITests.swift; sourceTree = "<group>"; };
 		53346AAC2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_MovieDisplayAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		53346ABD293669C600C854BF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		53346ABF29366BB500C854BF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				53346A922936684900C854BF /* Assets.xcassets */,
 				53346A942936684900C854BF /* LaunchScreen.storyboard */,
 				53346A972936684900C854BF /* Info.plist */,
-				53346ABD293669C600C854BF /* Movie.swift */,
+				53346ABF29366BB500C854BF /* Movie.swift */,
 			);
 			path = Bishop_MovieDisplayApp;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			files = (
 				53346A8E2936684800C854BF /* MovieSectionViewController.swift in Sources */,
 				53346A8A2936684800C854BF /* AppDelegate.swift in Sources */,
-				53346ABE293669C600C854BF /* Movie.swift in Sources */,
+				53346AC029366BB500C854BF /* Movie.swift in Sources */,
 				53346A8C2936684800C854BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
