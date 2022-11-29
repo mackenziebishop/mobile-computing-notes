@@ -16,7 +16,6 @@
 		53346AA12936684900C854BF /* Bishop_MovieDisplayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AA02936684900C854BF /* Bishop_MovieDisplayAppTests.swift */; };
 		53346AAB2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AAA2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift */; };
 		53346AAD2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AAC2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift */; };
-		53346ABA2936689200C854BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53346AB92936689200C854BF /* Movie.swift */; };
 		53346ABC293668A800C854BF /* MovieImages in Resources */ = {isa = PBXBuildFile; fileRef = 53346ABB293668A700C854BF /* MovieImages */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		53346AA62936684900C854BF /* Bishop_MovieDisplayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bishop_MovieDisplayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53346AAA2936684900C854BF /* Bishop_MovieDisplayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_MovieDisplayAppUITests.swift; sourceTree = "<group>"; };
 		53346AAC2936684900C854BF /* Bishop_MovieDisplayAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop_MovieDisplayAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		53346AB92936689200C854BF /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../../../../../Downloads/Movie.swift; sourceTree = "<group>"; };
 		53346ABB293668A700C854BF /* MovieImages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MovieImages; path = ../../../../../Downloads/MovieImages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				53346ABB293668A700C854BF /* MovieImages */,
-				53346AB92936689200C854BF /* Movie.swift */,
 				53346A892936684800C854BF /* AppDelegate.swift */,
 				53346A8B2936684800C854BF /* SceneDelegate.swift */,
 				53346A8D2936684800C854BF /* MovieSectionViewController.swift */,
@@ -267,7 +264,6 @@
 			files = (
 				53346A8E2936684800C854BF /* MovieSectionViewController.swift in Sources */,
 				53346A8A2936684800C854BF /* AppDelegate.swift in Sources */,
-				53346ABA2936689200C854BF /* Movie.swift in Sources */,
 				53346A8C2936684800C854BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
